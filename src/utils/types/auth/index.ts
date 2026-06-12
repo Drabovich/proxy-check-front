@@ -1,0 +1,12 @@
+export interface ISignInRequest {
+	email: string;
+	password: string;
+}
+export interface ISignUpRequest {
+	email: string;
+	password: string;
+}
+
+export interface ISessionResponse {
+	isLoggedIn: boolean;
+}
